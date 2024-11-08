@@ -5,6 +5,7 @@ from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.chat_models import ChatOpenAI
 from langchain.chains import RetrievalQA
 import os
+#hjfkfll
 
 def configure_retrieval_chain(chunked_docs):
     embeddings = OpenAIEmbeddings(api_key=os.getenv("OPENAI_API_KEY"))
