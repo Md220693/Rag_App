@@ -1,7 +1,7 @@
 # utils.py
 
 import pathlib
-from langchain.document_loaders import PyPDFLoader, Docx2txtLoader
+from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader
 from langchain.memory import ConversationBufferMemory
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_experimental.agents.agent_toolkits import create_csv_agent
