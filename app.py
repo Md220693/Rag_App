@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from streamlit.external.langchain import StreamlitCallbackHandler
 from utils import MEMORY, load_document
 from chat_with_documents import configure_retrieval_chain
-
+#djkffsflsdfklklsdfl;sdfklsdfkl
 load_dotenv()
 
 openai_api_key = os.getenv("OPENAI_API_KEY")
